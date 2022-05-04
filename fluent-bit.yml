@@ -81,7 +81,7 @@ data:
     [OUTPUT]
         Name   http
         Match  *
-        Host   kibana.internal.omnius.com
+        Host   kibana.internal.gautam.com
         Port   80
         Format json
 
@@ -144,7 +144,7 @@ spec:
           - containerPort: 2020
         # env:
         # - name: FLUENT_ELASTICSEARCH_HOST
-        #   value: "elasticsearch.omnius.com"
+        #   value: "elasticsearch.gautam.com"
         # - name: FLUENT_ELASTICSEARCH_PORT
         #   value: "443"
         volumeMounts:
